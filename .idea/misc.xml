@@ -12,8 +12,8 @@
         <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout-xhdpi/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout-xxhdpi/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout-xxxhdpi/acrivity_main.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout-xxxhdpi/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout-xxxhdpi/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Applications/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -26,7 +26,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.15" />
+        <option name="scale" value="0.16" />
       </ProjectState>
     </option>
   </component>
