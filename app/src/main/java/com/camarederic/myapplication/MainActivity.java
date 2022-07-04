@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewCity;
     private TextView textViewDate;
     private TextView textViewTemperature;
-    private TextView textViewMain;
     private TextView textViewDescription;
     private TextView textViewFeelsLike;
     private TextView textViewMinimum;
@@ -60,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
         textViewCity = findViewById( R.id.textViewCity );
         textViewDate = findViewById( R.id.textViewDate );
         textViewTemperature = findViewById( R.id.textViewTemperature );
-        textViewMain = findViewById( R.id.textViewMain );
         textViewDescription = findViewById( R.id.textViewDescription );
         textViewFeelsLike = findViewById( R.id.textViewFeelsLike );
         textViewMinimum = findViewById( R.id.textViewMinimum );
@@ -109,11 +107,6 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject object = jsonObject.getJSONObject( "main" );
                     int findTemperature = object.getInt( "temp" );
                     textViewTemperature.setText( findTemperature + " ℃" );
-
-                    JSONArray jsonArray = jsonObject.getJSONArray("weather");
-                    JSONObject object1 = jsonArray.getJSONObject( 0 );
-                    String findMain = object1.getString( "main" );
-                    textViewMain.setText( findMain + " :" );
 
                     JSONArray jsonArray1 = jsonObject.getJSONArray( "weather" );
                     JSONObject object2 = jsonArray1.getJSONObject( 0 );
